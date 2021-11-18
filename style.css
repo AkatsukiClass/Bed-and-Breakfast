@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+}
+
+/*nav*/
+
+.container-fluid > ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+a:hover {
+  background-color: #CCFFFF;
+}
+
+ul .nav-item > a {
+  color: white;
+  text-decoration: none;
+}
+
+body > .navbar-dark {
+  background-color: gray !important;
+
+}
+/*Kailua Kove*/
+.kove {
+  text-align: center;
+}
+
+.kove h5{
+  padding-top: 8px;
+  color: #25a6b8;
+  font-size: 30px;
+}
+
+.front {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+
+/*carousel*/
+.carousel {
+  padding-top: 5px;
+  width: 60%;
+  margin: auto;
+}
+/*cards*/
+.cards {
+  display: flex;
+  width: 62%;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Amenities*/
+.amenities {
+  display: grid;
+  width: 60%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+
+}
+.amnT {
+   background-image: url(background.png);
+    text-align: center;
+}
+
+
+/*Footer*/
+footer {
+  background-color: gray;
+
+}
+
+.FforFooter {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  padding-top: 10px;
+  margin: auto;
+}
+
+
+/*Forms and Map*/
+.formsL {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+iframe {
+  width: 70%;
+}
+.containerL {
+  width: 75%;
+  height: 698px;
+  margin: auto;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  text-align: center;
+}
+
+.Contact {
+  color: #25a6b8;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.centerit {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.centerbtn {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.booking {
+  line-height: 35px;
+}
